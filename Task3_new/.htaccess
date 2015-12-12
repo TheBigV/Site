@@ -1,0 +1,14 @@
+# Make UTF-8 the default, because it's the best:
+AddDefaultCharset utf-8
+
+# Disable directory listings:
+Options -Indexes
+
+# Make pretty URLs:
+RewriteEngine On
+
+RewriteRule ^register$ register.php
+RewriteRule ^login$ login.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^delete$ delete.php
+RewriteRule ^clear$ clear.php

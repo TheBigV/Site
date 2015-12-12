@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<title>To Do List</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="stylesheets/default.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/welcome.css" />
+
+		
+		<script type="text/javascript" src="scripts/json2.min.js"></script>
+
+		
+	</head>
+	<body>
+		<header id="welcome-header">
+			<h1>To Do List</h1>
+                         <h2><span class="doit">Just Do It</span></h2>
+			
+
+			<form action="register" method="POST" id="registration-box" novalidate="novalidate">
+				<h2>Register now!</h2>
+
+				<span class="field-container">
+					<label for="e-mail" class="label">E-mail address</label>
+					<input type="email" name="e-mail" id="e-mail" value="" maxlength="254" placeholder="mary@example.com" class="text" />
+				</span>
+
+				<span class="field-container">
+					<label for="password" class="label">Password</label>
+					<input type="password" name="password" id="password" value="" placeholder="Something secure!" class="text" />
+				</span>
+
+				<span class="field-container">
+					<label for="repassword" class="label">Password, again</label>
+					<input type="password" name="repassword" id="repassword" value="" placeholder="Just to make sure!" class="text" />
+				</span>
+
+				<input type="submit" value="Register!" class="button" />
+
+				<h2>Already registered? <a href="login">Log in!</a></h2>
+			</form>
+
+			<script type="text/javascript" src="scripts/register.js" async="async"></script>
+		</header>
+
+		<div id="content">
+			
+		</div>
+	</body>
+</html>

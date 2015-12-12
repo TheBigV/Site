@@ -1,0 +1,36 @@
+/* Todo List
+-------------------------------*/
+#todo-items {
+	list-style-type: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+#todo-items .edit {
+	border: none;
+	font: 1em sans-serif;
+	padding: 0;
+}
+
+#todo-items .edit:focus {
+	outline: none;
+}
+
+#todo-items .done-box:checked + * {
+	text-decoration: line-through;
+}
+
+#todo-items .delete {
+	background-image: url('../images/trash.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	height: 1em;
+	text-indent: -9999px;
+	width: 1em;
+}
+
+body.js #update-button {
+	display: none;
+}

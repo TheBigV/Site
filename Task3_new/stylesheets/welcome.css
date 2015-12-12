@@ -1,0 +1,59 @@
+
+#welcome-header {
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(#f6f6f6, #e6e6e6);
+	background-image:    -moz-linear-gradient(#f6f6f6, #e6e6e6);
+	background-image:      -o-linear-gradient(#f6f6f6, #e6e6e6);
+	background-image:         linear-gradient(#f6f6f6, #e6e6e6);
+	box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.4);
+	display: block;
+	padding: 5em;
+}
+
+#welcome-header h1 {
+	font: 4em Segoe UI Light, sans-serif;
+	margin: 0;
+}
+
+#welcome-header h2 {
+	font: 2em Segoe UI, sans-serif;
+}
+
+#welcome-header h2 del {
+	position: relative;
+	text-decoration: none;
+}
+
+#welcome-header h2 del::before {
+	background-image: url('../images/red-strike.png');
+	background-position: center;
+	background-size: 100%;
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#welcome-header h2 ins {
+	color: red;
+	display: inline-block;
+	font: bold 1.6em Cedarville Cursive, sans-serif;
+	margin-left: -1em;
+	margin-top: 0.5em;
+	position: absolute;
+	text-decoration: none;
+	-webkit-transform: rotate(10deg);
+	   -moz-transform: rotate(10deg);
+	    -ms-transform: rotate(10deg);
+	     -o-transform: rotate(10deg);
+	        transform: rotate(10deg);
+}
+
+
+#registration-box {
+	position: absolute;
+	right: 2em;
+	top: 5em;
+}

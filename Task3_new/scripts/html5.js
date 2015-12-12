@@ -1,0 +1,1 @@
+'header'.replace(/\w+/g,function(x){document.createElement(x)});
